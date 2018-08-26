@@ -30,9 +30,9 @@ after that you can just update wbmtools via normal git commands
     #first setup CMSSW, we only do this to ensure we all have
     #a consistent python + root environment, we dont depend on
     #CMSSW otherwise, so you can skip if you already setup 
-    #CMSSW_10_1 or higher somewhere in your login
-    cmsrel CMSSW_10_1_0
-    cd CMSSW_10_1_0/src
+    #CMSSW_10_2 or higher somewhere in your login
+    cmsrel CMSSW_10_2_0
+    cd CMSSW_10_2_0/src
     cmsenv
     cd -
     
